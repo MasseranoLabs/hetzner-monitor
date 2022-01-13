@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from hcloud import Client
 import os
 from datetime import datetime, timezone
