@@ -24,6 +24,6 @@ for server in client.servers.get_all():
 
     if name.startswith(args.prefix) and days > args.days:
         print("%s (up for %s days)" % (name, days))
-	server.delete()
-	print("Deleted")
+        server.delete()
+        print("Deleted")
 
